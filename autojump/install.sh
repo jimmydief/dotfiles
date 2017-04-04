@@ -5,12 +5,13 @@
 # This installs the Autojump plugin.
 
 # Check for Autojump
-if test ! $(which autojump)
-then
-  echo "  Installing Autojump for you."
+if [ $(which autojump) ]; then
+		echo -e "autojump already installed, skipping..."
+	else
+		echo "Installing autojump..."
 
-  # Install it using Homebrew
-  brew install autojump
+		# Install it using Homebrew
+		brew install autojump
 
 fi
 
