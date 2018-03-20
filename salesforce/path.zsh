@@ -5,4 +5,4 @@ export P4PORT=ssl:p4proxy.soma.salesforce.com:1999
 export PATH=$HOME/bin:$PATH
 
 # load some environment variables
-. ~/blt/env.sh
+. $CODE/blt/env.sh
