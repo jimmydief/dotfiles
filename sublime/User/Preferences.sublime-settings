@@ -1,0 +1,23 @@
+{
+	"atomic_save": false,
+	"binary_file_patterns":
+	[
+		"gen/**",
+		"node_modules/**",
+		"Client/edge*.js"
+	],
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		120
+	],
+	"theme": "Boxy Ocean.sublime-theme",
+	"trim_trailing_white_space_on_save": true
+}
