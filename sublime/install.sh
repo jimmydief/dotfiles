@@ -1,7 +1,5 @@
 #!/bin/sh
-# Set up a machine for Sublime Text 3
-
-set -x
+# Create configuration files for Sublime Text 3
 
 sublime_dir=~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
@@ -17,7 +15,7 @@ else
 fi
 
 # symlink user settings
-for file in $ZSH/sublime/User/*
+for file in $DOTFILES/sublime/User/*
 do
 	echo -e "Symlinking $file."
 	ln -sf "$file" "$sublime_dir"
