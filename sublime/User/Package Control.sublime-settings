@@ -6,17 +6,21 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"Babel",
 		"Better CoffeeScript",
 		"Boxy Theme",
 		"GitGutter",
 		"GitHubinator",
 		"GitStatusBar",
+		"JsPrettier",
 		"Package Control",
 		"SideBarEnhancements",
 		"Stylus",
 		"SublimeLinter",
 		"SublimeLinter-coffeelint",
 		"SublimeLinter-contrib-stylint",
+		"SublimeLinter-eslint",
+		"SublimeLinter-flow",
 		"SublimeLinter-json"
 	]
 }

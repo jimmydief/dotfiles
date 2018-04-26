@@ -1,4 +1,4 @@
 {
-  "default_remote": "origin",
-  "default_host": "git.soma.salesforce.com"
+	"default_remote": "origin",
+	"default_host": "git.soma.salesforce.com"
 }
