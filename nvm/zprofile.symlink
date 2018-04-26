@@ -1,7 +1,0 @@
-# Ensure that nvm is always loaded. This is necessary to ensure that node is available to Sublime Text when launched
-# from the GUI and using nvm.
-
-export NVM_DIR="$HOME/.nvm"
-
-# load nvm
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
