@@ -22,7 +22,7 @@ else
 	sudo bash -c 'echo "/usr/local/bin/zsh" >> /etc/shells'
 fi
 
-if [ $SHELL = "/bin/zsh" ]; then
+if [ $SHELL = "/usr/local/bin/zsh" ]; then
 	echo -e "ZSH is already the default shell, skipping..."
 else
 	echo -e "Making ZSH the default shell."

@@ -3,6 +3,10 @@
 	"in_process_packages":
 	[
 	],
+	"install_prereleases":
+	[
+		"Babel"
+	],
 	"installed_packages":
 	[
 		"A File Icon",
@@ -13,6 +17,7 @@
 		"GitHubinator",
 		"GitStatusBar",
 		"JsPrettier",
+		"LSP",
 		"Package Control",
 		"SideBarEnhancements",
 		"Stylus",
@@ -21,6 +26,7 @@
 		"SublimeLinter-contrib-stylint",
 		"SublimeLinter-eslint",
 		"SublimeLinter-flow",
-		"SublimeLinter-json"
-	]
+		"SublimeLinter-json",
+		"TabsExtra",
+	],
 }

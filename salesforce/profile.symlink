@@ -1,0 +1,8 @@
+# make BLT and P4V happy
+export PATH=~/bin:$PATH
+
+# update PATH to include personal bin if it exists
+[ -d "$HOME/bin" ] && PATH="$HOME/bin:$PATH"
+
+# source some bootstrap-related configs
+source /Users/james.diefenderfer/.bootstrap_rc

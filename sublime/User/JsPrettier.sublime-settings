@@ -1,3 +1,8 @@
 {
-	"auto_format_on_save": true
+	"auto_format_on_save": true,
+	"additional_cli_args": {
+		"--config": ".prettierrc.js",
+		"--config-precedence": "prefer-file",
+		"--ignore-path": ".prettierignore"
+	}
 }
