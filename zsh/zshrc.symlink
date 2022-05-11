@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+export OH_MY_ZSH=$HOME/.oh-my-zsh
 
 # Where am I?
 export DOTFILES=$HOME/.dotfiles
@@ -59,7 +59,7 @@ done
 
 unset config_files
 
-source $ZSH/oh-my-zsh.sh
+source $OH_MY_ZSH/oh-my-zsh.sh
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
