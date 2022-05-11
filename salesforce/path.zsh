@@ -1,6 +1,8 @@
 # set up the SFDC perforce port
 export P4PORT=ssl:p4proxy.soma.salesforce.com:1999
 
-# load some environment variables
-. $CODE/blt/env.sh
+export NODE_EXTRA_CA_CERTS="$HOME/npm-sfdc-certs.pem"
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
 
+source $HOME/.bootstrap_rc
