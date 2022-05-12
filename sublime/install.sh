@@ -3,9 +3,6 @@
 
 sublime_dir=~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
-# symlink an "st" command to open files in Sublime Text from the command line.
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/st
-
 if [ -d "$sublime_dir" ]; then
 	echo -e "Sublime Text 3 /User folder already exists."
 else
