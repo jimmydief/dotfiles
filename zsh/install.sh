@@ -52,4 +52,17 @@ else
 	git clone git://github.com/zsh-users/zsh-autosuggestions $OH_MY_ZSH/custom/plugins/zsh-autosuggestions
 fi
 
+# Install the Autojump plugin if necessary.
+if [ $(which autojump) ]; then
+		echo -e "autojump already installed, skipping..."
+	else
+		echo "Installing autojump..."
+
+		# Install it using Homebrew
+		brew install autojump
+fi
+
+exit 0
+
+
 exit 0
