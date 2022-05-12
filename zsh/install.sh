@@ -49,7 +49,7 @@ if [ -d "$OH_MY_ZSH/custom/plugins/zsh-autosuggestions" ]; then
 else
 	echo -e "Installing zsh-suggestions."
 
-	git clone git://github.com/zsh-users/zsh-autosuggestions $OH_MY_ZSH/custom/plugins/zsh-autosuggestions
+	git clone https://github.com/zsh-users/zsh-autosuggestions.git $OH_MY_ZSH/custom/plugins/zsh-autosuggestions
 fi
 
 # Install the Autojump plugin if necessary.
