@@ -3,3 +3,5 @@ export PATH=~/bin:$PATH
 
 # update PATH to include personal bin if it exists
 [ -d "$HOME/bin" ] && PATH="$HOME/bin:$PATH"
+
+export NODE_EXTRA_CA_CERTS="$HOME/npm-sfdc-certs.pem"
