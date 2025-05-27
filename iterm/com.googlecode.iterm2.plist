@@ -516,6 +516,20 @@
 					<key>Text</key>
 					<string>0x7f</string>
 				</dict>
+				<key>0x7B-0x80000</key>
+				<dict>
+					<key>Action</key>
+					<string>send escape sequence</string>
+					<key>Text</key>
+					<string>b</string>
+				</dict>
+				<key>0x7C-0x80000</key>
+				<dict>
+					<key>Action</key>
+					<string>send escape sequence</string>
+					<key>Text</key>
+					<string>f</string>
+				</dict>
 				<key>0x7f-0x100000</key>
 				<dict>
 					<key>Action</key>
@@ -1004,8 +1018,6 @@
 			<string>kNextWindowPointerAction</string>
 		</dict>
 	</dict>
-	<key>PreventEscapeSequenceFromClearingHistory</key>
-	<false/>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnQuit</key>
