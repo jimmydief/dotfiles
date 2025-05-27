@@ -2,6 +2,8 @@
 #
 # This installs n if not already present.
 
+set -ex
+
 if test ! $(which n)
 then
 	echo "  Installing n for you."
@@ -16,7 +18,7 @@ then
 
 	# install the default node version
 	echo "  Installing the latest Node version..."
-	n latest
+	sudo n latest
 
 fi
 
